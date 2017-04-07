@@ -1,0 +1,174 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title></title>
+
+<!-- main JS libs -->
+<script src="js/libs/modernizr.min.js"></script>
+<script src="js/libs/jquery-1.10.0.js"></script>
+<script src="js/libs/jquery-ui.min.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
+
+<!-- Style CSS -->
+<link href="css/bootstrap.css" media="screen" rel="stylesheet">
+<link href="style.css" media="screen" rel="stylesheet">
+
+<!-- scripts -->
+<script src="js/general.js"></script>
+
+<!-- Include all needed stylesheets and scripts here -->
+
+
+
+
+
+<!--[if lt IE 9]><script src="js/respond.min.js"></script><![endif]-->
+<!--[if gte IE 9]>
+<style type="text/css">
+    .gradient {filter: none !important;}
+</style>
+<![endif]-->
+
+
+
+
+
+<style type="text/css">
+div#div1{ 
+position:fixed; 
+top:0; 
+left:0; 
+bottom:0; 
+right:0; 
+z-index:-1; 
+} 
+div#div1 > img { 
+height:100%; 
+width:100%; 
+border:0; 
+} 
+
+.bcc{
+
+ margin-left: auto; margin-right: auto;
+ margin:150px auto auto auto;
+ 
+ width:371px;
+ height:461px;
+
+background:url(img/login/boder.png);
+
+
+}
+
+.tabel_touming{
+filter:alpha(opacity=80); 
+-moz-opacity:0.8; 
+opacity:0.8;
+
+border-style:solid;
+border-color:#af9f9f;
+
+}
+
+.tt{
+margin:0px 10px 30px 0px;
+
+}
+
+
+.db{
+margin:40px -100px 0px 0px;
+
+}
+
+</style>
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+
+<body>
+
+    <!-- container -->
+    <!--<div class="container">
+
+        Start your work here.
+
+    <!--</div>-->
+    <!--/ container -->
+	<div class="bcc">
+
+<form id="form1" name="form1" method="post" action="do_login.jsp">
+
+<table width="280" border="0" align="center">
+  <tr>
+    <td height="130" align="center" valign="bottom"><img class="db" src="img/login/login.png" width="220" height="79"></td>
+  </tr>
+  <tr>
+    <td><table width="280" height="120" border="0" align="center">
+      <tr>
+        <td width="166" align="right" valign="top"><img class="tt" src="img/login/user.png" width="21" height="22"></td>
+        <td width="100" height="60" align="left" valign="top">
+		
+		
+		<div class="field_text" style="width:200px;">
+          <input style="color:#F1692D; font-size:30px" type="text" name="username" />
+        </div>
+	
+		</td>
+      </tr>
+      <tr>
+        <td width="166" align="right" valign="top"><img class="tt" src="img/login/pass.png" width="23" height="24"></td>
+        <td width="100" height="60" align="left" valign="top">
+		<div class="field_text" style="width:200px">
+		<input style="color:#F1692D; font-size:30px" type="password" name="password" />
+		</div>
+		</td>
+      </tr>
+      <tr>
+        <td width="166">&nbsp;</td>
+        <td width="100" height="60" align="left" valign="top">
+		<div class="field_text" style="width:110px">
+		<input style="color:#F1692D; font-size:30px" name="code" type="text" size="4" maxlength="4"/>
+		</div>
+		</td>
+      </tr>
+      <tr>
+        <td width="166">&nbsp;</td>
+        <td width="200" align="right" valign="bottom">
+          <span class="btn btn-blue">
+          <input type="submit" name="Submit" value="登陆" style="width:200px;"/></span> 
+		  <a href="reg.jsp" class="btn" style="width:100px;"><span>注册</span></a>       
+        </td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+
+
+
+
+</form>
+
+</div>
+	
+	
+	<div id="div1"><img src="img/login/5.jpg" width="640" height="425" /></div> 
+	
+</body>
+</html>
